@@ -14,4 +14,5 @@ public partial class Departamento
     public virtual ICollection<Empleado> Empleados { get; set; } = new List<Empleado>();
 
     public virtual Ubicacion IdubicacionNavigation { get; set; } = null!;
+    public bool? Estado_reg { get; set; }
 }

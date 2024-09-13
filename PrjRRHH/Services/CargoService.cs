@@ -7,7 +7,7 @@ namespace PrjRRHH.Services
         private readonly RhContext _context;
         private readonly ILogger<CargoService> _logger;
 
-        public CargoService(RhContext context, ILogger<CargoService> logger) 
+        public CargoService(RhContext context, ILogger<CargoService> logger)
         {
             _context = context;
             _logger = logger;
@@ -19,7 +19,7 @@ namespace PrjRRHH.Services
         }
 
         //Método para registrar un nuevo Cargo
-        public RptaDefault saveCargo( Cargo cargo )
+        public RptaDefault saveCargo(Cargo cargo)
         {
             RptaDefault rptaDefault = new RptaDefault();
 
@@ -38,8 +38,13 @@ namespace PrjRRHH.Services
                 rptaDefault.mensaje = ex.Message;
                 rptaDefault.idRespuesta = 0;
             }
-            
+
             return rptaDefault;
         }
+
+        //public RptaDefault deleteCargo(string idCargo)
+        //{
+
+        //}
     }
 }

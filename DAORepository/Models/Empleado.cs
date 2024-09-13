@@ -34,4 +34,6 @@ public partial class Empleado
     public virtual ICollection<Empleado> InverseJefeNavigation { get; set; } = new List<Empleado>();
 
     public virtual Empleado? JefeNavigation { get; set; }
+
+    public bool? Estado_reg { get; set; }
 }

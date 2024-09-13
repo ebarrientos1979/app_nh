@@ -13,5 +13,7 @@ public partial class Cargo
 
     public decimal SueldoMax { get; set; }
 
+    public bool? Estado_reg { get; set; }
+
     public virtual ICollection<Empleado> Empleados { get; set; } = new List<Empleado>();
 }

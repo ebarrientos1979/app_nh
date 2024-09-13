@@ -3188,11 +3188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\PrjRRHH.csproj",
+      "projectUniqueName": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\PrjRRHH\\PrjRRHH.csproj",
       "projectName": "PrjRRHH",
-      "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\PrjRRHH.csproj",
+      "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\PrjRRHH\\PrjRRHH.csproj",
       "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\obj\\",
+      "outputPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\PrjRRHH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3209,8 +3209,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj": {
-              "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj"
+            "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj": {
+              "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj"
             }
           }
         }

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\",
+  "WorkspaceRootPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|c:\\users\\edwin\\documents\\github\\proyecto.net\\prjrrhh\\prjrrhh\\configuration\\rptadefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|solutionrelative:prjrrhh\\configuration\\rptadefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|c:\\users\\edwin\\documents\\github\\proyecto.net\\prjrrhh\\prjrrhh\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|solutionrelative:prjrrhh\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\rhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\rhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|c:\\users\\edwin\\documents\\github\\proyecto.net\\prjrrhh\\prjrrhh\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA75A53F-D70E-41BF-9603-670F2B5DDEBA}|PrjRRHH\\PrjRRHH.csproj|solutionrelative:prjrrhh\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|c:\\users\\edwin\\documents\\github\\app_nh\\daorepository\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8ABF97-95E7-4E62-A5B4-49B52142A22A}|DAORepository\\DAORepository.csproj|solutionrelative:daorepository\\models\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,39 +43,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RptaDefault.cs",
-              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Configuration\\RptaDefault.cs",
-              "RelativeDocumentMoniker": "PrjRRHH\\Configuration\\RptaDefault.cs",
-              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Configuration\\RptaDefault.cs",
-              "RelativeToolTip": "PrjRRHH\\Configuration\\RptaDefault.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "Ubicacion.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Ubicacion.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\Ubicacion.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Ubicacion.cs",
+              "RelativeToolTip": "DAORepository\\Models\\Ubicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T01:59:50.063Z",
+              "WhenOpened": "2024-09-13T02:50:52.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RhContext.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\RhContext.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\RhContext.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\RhContext.cs",
+              "RelativeToolTip": "DAORepository\\Models\\RhContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:50:48.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CargoService.cs",
-              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Services\\CargoService.cs",
-              "RelativeDocumentMoniker": "PrjRRHH\\Services\\CargoService.cs",
-              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Services\\CargoService.cs",
-              "RelativeToolTip": "PrjRRHH\\Services\\CargoService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Empleado.cs",
+              "RelativeToolTip": "DAORepository\\Models\\Empleado.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:12:51.51Z"
+              "WhenOpened": "2024-09-13T02:50:41.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CargoController.cs",
-              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Controllers\\CargoController.cs",
-              "RelativeDocumentMoniker": "PrjRRHH\\Controllers\\CargoController.cs",
-              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\PrjRRHH\\Controllers\\CargoController.cs",
-              "RelativeToolTip": "PrjRRHH\\Controllers\\CargoController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA0wB8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Departamento.cs",
+              "RelativeToolTip": "DAORepository\\Models\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:08:05.767Z"
+              "WhenOpened": "2024-09-13T02:50:34.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Control.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Control.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\Control.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Control.cs",
+              "RelativeToolTip": "DAORepository\\Models\\Control.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:50:30.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Cargo.cs",
+              "RelativeDocumentMoniker": "DAORepository\\Models\\Cargo.cs",
+              "ToolTip": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\Models\\Cargo.cs",
+              "RelativeToolTip": "DAORepository\\Models\\Cargo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T02:49:46.752Z",
+              "EditorCaption": ""
             }
           ]
         }

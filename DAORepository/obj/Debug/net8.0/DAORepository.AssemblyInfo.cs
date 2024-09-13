@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAORepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+301d3dcb0ad1d5ebbcb894388fb36a5bcee79d89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f849788b699106e3361ea880bcea3108ffd22fdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAORepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAORepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

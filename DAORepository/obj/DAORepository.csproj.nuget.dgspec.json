@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj": {}
+    "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj": {
+    "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj",
+        "projectUniqueName": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj",
         "projectName": "DAORepository",
-        "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\DAORepository.csproj",
+        "projectPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\DAORepository.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edwin\\Documents\\GitHub\\proyecto.net\\PrjRRHH\\DAORepository\\obj\\",
+        "outputPath": "C:\\Users\\edwin\\Documents\\GitHub\\app_nh\\DAORepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",

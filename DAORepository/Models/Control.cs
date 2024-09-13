@@ -8,4 +8,5 @@ public partial class Control
     public string Parametro { get; set; } = null!;
 
     public string Valor { get; set; } = null!;
+    public bool? Estado_reg { get; set; }
 }

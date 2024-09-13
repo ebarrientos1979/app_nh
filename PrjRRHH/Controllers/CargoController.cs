@@ -32,5 +32,12 @@ namespace PrjRRHH.Controllers
                 BadRequest(estaGrabado):Ok(estaGrabado);
         }
 
+        /*[HttpDelete("deleteCargo/{Idcargo}")]
+        public IActionResult Delete(string Idcargo)
+        {
+
+            return _cargoService.deleteCargo(Idcargo);
+        }*/
+
     }
 }
