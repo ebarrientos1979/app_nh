@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PrjRRHH.Controllers.CargoController",
+    "Method": "Get",
+    "RelativePath": "api/Cargo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjRRHH.Controllers.CargoController",
+    "Method": "save",
+    "RelativePath": "api/Cargo/saveCargo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargo",
+        "Type": "DAORepository.Models.Cargo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
