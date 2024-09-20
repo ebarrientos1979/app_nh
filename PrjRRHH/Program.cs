@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<CargoService>();
 builder.Services.AddScoped<DepartamentoService>();
+builder.Services.AddScoped<EmpleadoService>();
 
 
 builder.Services.AddDbContext<RhContext>(options =>

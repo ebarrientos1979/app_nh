@@ -36,6 +36,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PrjRRHH.Controllers.EmpleadoController",
+    "Method": "Get",
+    "RelativePath": "empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PrjRRHH.Controllers.CargoController",
     "Method": "GetAllCargos",
     "RelativePath": "getAllCargos",
