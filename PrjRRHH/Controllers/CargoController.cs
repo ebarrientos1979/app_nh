@@ -23,6 +23,14 @@ namespace PrjRRHH.Controllers
             return Ok(_cargoService.GetCargo());
         }
 
+        //http://www.xxxx.com?valor1=dato1&val2=233
+
+        [HttpGet("/getAllCargos")]
+        public async Task<ActionResult> GetAllCargos([FromQuery] QueryParameters queryParameters)
+        {
+            return Ok(await _cargoService.getPagination(queryParameters));
+        }
+
         [HttpPost("saveCargo")]
         public IActionResult save([FromBody] Cargo cargo)
         {            

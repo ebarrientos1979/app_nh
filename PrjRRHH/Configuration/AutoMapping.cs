@@ -8,16 +8,6 @@ namespace PrjRRHH.Configuration
     {
         public AutoMapping()
         {
-            /*CreateMap<Cargo, CargoDto>()
-                .ForMember(
-                    u => u.NombreCargo,
-                    cud => cud.MapFrom(
-                            cu => cu.Nombre
-                        )
-                );
-
-            CreateMap<CargoDto, Cargo>().ReverseMap();*/
-
             var types = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(x => x.GetTypes())
                 .Where(t => t.Namespace == "DAORepository.Models"

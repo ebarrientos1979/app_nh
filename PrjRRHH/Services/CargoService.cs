@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using DAORepository.Models;
+using Microsoft.EntityFrameworkCore;
 using PrjRRHH.Configuration;
 using PrjRRHH.Dto;
+
 namespace PrjRRHH.Services
 {
     public class CargoService
@@ -53,6 +55,25 @@ namespace PrjRRHH.Services
             }
 
             return rptaDefault;
+        }
+
+        public async Task<IEnumerable<CargoDto>> getPagination(
+            QueryParameters queryParameters)
+        {
+            List<CargoDto> pagination = new List<CargoDto>();
+
+            IQueryable<Cargo> cargos = _context.Cargos;
+
+            cargos = cargos.
+                Skip(queryParameters.Size * (queryParameters.Page - 1))
+                .Take(queryParameters.Size);
+
+            foreach (var c in cargos.ToList())
+            {
+                pagination.Add(_mapper.Map<CargoDto>(c));
+            }
+
+            return pagination;
         }
 
         //public RptaDefault deleteCargo(string idCargo)
