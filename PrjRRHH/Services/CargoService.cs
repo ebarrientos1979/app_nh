@@ -1,21 +1,34 @@
-﻿using DAORepository.Models;
+﻿using AutoMapper;
+using DAORepository.Models;
 using PrjRRHH.Configuration;
+using PrjRRHH.Dto;
 namespace PrjRRHH.Services
 {
     public class CargoService
     {
         private readonly RhContext _context;
         private readonly ILogger<CargoService> _logger;
+        private readonly IMapper _mapper;
 
-        public CargoService(RhContext context, ILogger<CargoService> logger)
+        public CargoService(
+            RhContext context, 
+            ILogger<CargoService> logger,
+            IMapper mapper)
         {
             _context = context;
             _logger = logger;
+            _mapper = mapper;
         }
 
-        public IEnumerable<Cargo> GetCargo()
+        public IEnumerable<CargoDto> GetCargo()
         {
-            return _context.Cargos.ToList();
+            List<CargoDto> listaCargos = new List<CargoDto>();
+
+            _context.Cargos.ToList<Cargo>().ForEach(c =>
+            {
+                listaCargos.Add(_mapper.Map<CargoDto>(c));
+            });
+            return listaCargos;
         }
 
         //Método para registrar un nuevo Cargo

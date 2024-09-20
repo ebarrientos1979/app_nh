@@ -13,12 +13,15 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddScoped<CargoService>();
+builder.Services.AddScoped<DepartamentoService>();
 
 
 builder.Services.AddDbContext<RhContext>(options =>
     options.UseSqlServer( builder.
     Configuration.GetConnectionString("RHConnection") )
 );
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

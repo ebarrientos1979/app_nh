@@ -144,3 +144,4 @@ C:\Users\edwin\Documents\GitHub\app_nh\PrjRRHH\obj\Debug\net8.0\refint\PrjRRHH.d
 C:\Users\edwin\Documents\GitHub\app_nh\PrjRRHH\obj\Debug\net8.0\PrjRRHH.pdb
 C:\Users\edwin\Documents\GitHub\app_nh\PrjRRHH\obj\Debug\net8.0\PrjRRHH.genruntimeconfig.cache
 C:\Users\edwin\Documents\GitHub\app_nh\PrjRRHH\obj\Debug\net8.0\ref\PrjRRHH.dll
+C:\Users\edwin\Documents\GitHub\app_nh\PrjRRHH\bin\Debug\net8.0\AutoMapper.dll
