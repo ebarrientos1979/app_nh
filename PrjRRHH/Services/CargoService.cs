@@ -58,11 +58,25 @@ namespace PrjRRHH.Services
         }
 
         public async Task<IEnumerable<CargoDto>> getPagination(
-            QueryParameters queryParameters)
+            CargoQueryParameters queryParameters)
         {
             List<CargoDto> pagination = new List<CargoDto>();
 
             IQueryable<Cargo> cargos = _context.Cargos;
+
+            if (queryParameters.MinSueldo != null)
+            {
+                cargos = cargos.Where(
+                    c => c.SueldoMin >= queryParameters.MinSueldo.Value
+                    );
+            }
+
+            if (queryParameters.MaxSueldo != null)
+            {
+                cargos = cargos.Where(
+                    c => c.SueldoMax <= queryParameters.MaxSueldo.Value
+                    );
+            }
 
             cargos = cargos.
                 Skip(queryParameters.Size * (queryParameters.Page - 1))
