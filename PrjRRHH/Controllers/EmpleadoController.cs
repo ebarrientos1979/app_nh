@@ -5,7 +5,7 @@ namespace PrjRRHH.Controllers
 {
     [ApiController]
     [Route("/empleado")]
-    public class EmpleadoController:ControllerBase
+    public class EmpleadoController : ControllerBase
     {
         private readonly EmpleadoService _empleadoService;
 

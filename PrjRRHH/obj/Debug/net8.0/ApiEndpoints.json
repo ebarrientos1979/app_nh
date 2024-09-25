@@ -75,5 +75,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PrjRRHH.Controllers.UsuarioController",
+    "Method": "InicioSesion",
+    "RelativePath": "signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioNuevo",
+        "Type": "PrjRRHH.Dto.UserSignInDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
